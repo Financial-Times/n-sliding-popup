@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			el.setAttribute('data-n-sliding-popup-visible', 'true');
 			el.onClose = () => {
 				status.textContent = 'Closed';
-			}
+			};
 		}, (i * 2000) + 2000, els[i]);
 	}
 });
