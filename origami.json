@@ -4,7 +4,7 @@
 		"origamiCategory": "components",
 		"origamiVersion": 1,
 		"support": "https://github.com/Financial-Times/n-sliding-popup/issues",
-		"supportStatus": "active",
+		"supportStatus": "experimental",
 		"browserFeatures": {},
 		"ci": {
 			"circle": "https://circleci.com/api/v1/project/Financial-Times/n-sliding-popup"
