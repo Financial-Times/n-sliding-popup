@@ -49,7 +49,7 @@
   }
 
   .n-sliding-popup-close {
-    @include oIconsGetIcon('cross', oColorsGetPaletteColor('cold-1'), 15);
+    @include oIconsGetIcon('cross', oColorsGetPaletteColor('cold-1'), 30);
     border: 0;
     position: absolute;
     right: 6px;
