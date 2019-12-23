@@ -20,6 +20,7 @@ class SlidingPopup {
 
 	close () {
 		this.el.removeAttribute('data-n-sliding-popup-visible');
+		this.el.setAttribute('aria-hidden', 'true');
 		const event = new CustomEvent('close', { detail: { target: this.el, instance: this }});
 		if (this.el.onClose) {
 			this.el.onClose.call(null, event);
