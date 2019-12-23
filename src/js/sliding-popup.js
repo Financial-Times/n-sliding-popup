@@ -16,6 +16,7 @@ class SlidingPopup {
 
 	open () {
 		this.el.setAttribute('data-n-sliding-popup-visible', 'true');
+		this.el.setAttribute('aria-hidden', 'false');
 	}
 
 	close () {
