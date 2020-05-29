@@ -4,6 +4,10 @@
 		"origamiCategory": "components",
 		"origamiVersion": 1,
 		"support": "https://github.com/Financial-Times/n-sliding-popup/issues",
+		"supportContact": {
+			"email": "accounts-team.customer-products@ft.com",
+			"slack": "financialtimes/customer-products-accounts-team"
+		},
 		"supportStatus": "experimental",
 		"browserFeatures": {},
 		"ci": {
