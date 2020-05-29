@@ -23,7 +23,6 @@
 				"name": "demo",
 				"js": "demos/src/demo.js",
 				"template": "demos/src/demo.mustache",
-				"hidden": true,
 				"description": ""
 			}
 		]
