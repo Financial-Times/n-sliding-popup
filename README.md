@@ -1,4 +1,4 @@
-n-sliding-popup [![Circle CI](https://circleci.com/gh/Financial-Times/n-sliding-popup/tree/master.svg?style=svg)](https://circleci.com/gh/Financial-Times/n-sliding-popup/tree/master)
+n-sliding-popup [![Circle CI](https://circleci.com/gh/Financial-Times/n-sliding-popup/tree/main.svg?style=svg)](https://circleci.com/gh/Financial-Times/n-sliding-popup/tree/main)
 =================
 
 Next-UI Sliding Popup.
