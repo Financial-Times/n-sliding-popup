@@ -1,7 +1,19 @@
 {
   "private": true,
   "devDependencies": {
+    "check-engine": "^1.10.1",
     "expect.js": "^0.3.1",
     "origami-build-tools": "^8.0.0"
+  },
+  "volta": {
+    "node": "12.22.8",
+    "npm": "7.24.2"
+  },
+  "scripts": {
+    "preinstall": "[ \"$INIT_CWD\" != \"$PWD\" ] || npm_config_yes=true npx check-engine"
+  },
+  "engines": {
+    "node": "12.x",
+    "npm": "7.x || 8.x"
   }
 }
