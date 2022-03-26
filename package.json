@@ -3,7 +3,7 @@
   "devDependencies": {
     "check-engine": "^1.10.1",
     "expect.js": "^0.3.1",
-    "origami-build-tools": "^8.0.0"
+    "origami-build-tools": "^9.0.0"
   },
   "volta": {
     "node": "12.22.8",
