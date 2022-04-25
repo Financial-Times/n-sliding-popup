@@ -3,7 +3,7 @@
   "devDependencies": {
     "check-engine": "^1.10.1",
     "expect.js": "^0.3.1",
-    "origami-build-tools": "^8.0.0"
+    "origami-build-tools": "^11.1.2"
   },
   "volta": {
     "node": "12.22.8",
@@ -15,5 +15,10 @@
   "engines": {
     "node": "12.x",
     "npm": "7.x || 8.x"
+  },
+  "peerDependencies": {
+    "@financial-times/o-colors": "^6.4.2",
+    "@financial-times/o-grid": "^6.1.5",
+    "@financial-times/o-icons": "^7.2.1"
   }
 }
