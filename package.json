@@ -1,24 +1,47 @@
 {
-  "private": true,
+  "name": "@financial-times/n-sliding-popup",
+  "version": "0.0.0",
+  "description": "Sliding popup for FT.com",
+  "main": "dist/component.js",
+  "browser": "dist/browser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/n-sliding-popup.git"
+  },
+  "license": "ISC",
+  "config": {},
+  "scripts": {
+    "commit": "commit-wizard",
+    "start": "echo error: please configure this command.",
+    "build": "echo error: please configure this command.",
+    "clean": "rm -r ./node_modules",
+    "prepare": "npx snyk-protect || npx snyk-protect -d || true",
+    "preinstall": "[ \"$INIT_CWD\" != \"$PWD\" ] || npm_config_yes=true npx check-engine"
+  },
   "devDependencies": {
     "check-engine": "^1.10.1",
     "expect.js": "^0.3.1",
-    "origami-build-tools": "^11.1.2"
-  },
-  "volta": {
-    "node": "12.22.8",
-    "npm": "7.24.2"
-  },
-  "scripts": {
-    "preinstall": "[ \"$INIT_CWD\" != \"$PWD\" ] || npm_config_yes=true npx check-engine"
-  },
-  "engines": {
-    "node": "12.x",
-    "npm": "7.x || 8.x"
+    "origami-build-tools": "^11.1.2",
+    "@snyk/protect": "^1.914.0"
   },
   "peerDependencies": {
     "@financial-times/o-colors": "^6.4.2",
     "@financial-times/o-grid": "^6.1.5",
     "@financial-times/o-icons": "^7.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "node_modules/.bin/secret-squirrel-commitmsg",
+      "pre-commit": "node_modules/.bin/secret-squirrel",
+      "pre-push": "make verify -j3"
+    }
+  },
+  "volta": {
+    "node": "12.22.8",
+    "npm": "7.24.2"
+  },
+  "engines": {
+    "node": "12.x",
+    "npm": "7.x || 8.x"
   }
 }
