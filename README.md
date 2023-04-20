@@ -1,8 +1,7 @@
 n-sliding-popup [![Circle CI](https://circleci.com/gh/Financial-Times/n-sliding-popup/tree/main.svg?style=svg)](https://circleci.com/gh/Financial-Times/n-sliding-popup/tree/main)
 =================
 
-Next-UI Sliding Popup.
-
+This is an [origami component](https://registry.origami.ft.com/components/n-sliding-popup@4.0.0). The sliding popup component is maintained by the accounts team. It is designed to allow a wrapped component to slide up from the bottom of the page when triggered, providing an interactive user experience
 ----
 
 ## Usage
