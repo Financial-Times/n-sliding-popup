@@ -4,6 +4,11 @@ n-sliding-popup [![Circle CI](https://circleci.com/gh/Financial-Times/n-sliding-
 This is an [origami component](https://registry.origami.ft.com/components/n-sliding-popup@4.0.0). The sliding popup component is maintained by the accounts team. It is designed to allow a wrapped component to slide up from the bottom of the page when triggered, providing an interactive user experience
 ----
 
+## Installation
+Run `npm install`
+
+## Running demo
+Run `npx origami-build-tools dev`. This will serve a demo on localhost, as well as on your network (the output in the terminal will give you the links).
 ## Usage
 
 Create a div that looks like this:
