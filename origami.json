@@ -2,7 +2,7 @@
 		"description": "Component description",
 		"origamiType": "module",
 		"origamiCategory": "components",
-		"origamiVersion": 1,
+		"origamiVersion": "2.0",
 		"support": "https://github.com/Financial-Times/n-sliding-popup/issues",
 		"supportContact": {
 			"email": "accounts-team.customer-products@ft.com",
