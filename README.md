@@ -1,7 +1,6 @@
-n-sliding-popup [![Circle CI](https://circleci.com/gh/Financial-Times/n-sliding-popup/tree/main.svg?style=svg)](https://circleci.com/gh/Financial-Times/n-sliding-popup/tree/main)
-=================
+As of May 2023 n-sliding-popup has been ingested into n-live-chat (it was the only consumer of this module). If you find yourself in need of something similar, please contact the Accounts team to discuss your use case and we can see if we can put forward a joint origami component proposal. 
 
-This is an [origami component](https://registry.origami.ft.com/components/n-sliding-popup@4.0.0). The sliding popup component is maintained by the accounts team. It is designed to allow a wrapped component to slide up from the bottom of the page when triggered, providing an interactive user experience
+This was an experimental origami component. The sliding popup component was maintained by the accounts team. It was designed to allow a wrapped component to slide up from the bottom of the page when triggered, providing an interactive user experience
 ----
 
 ## Installation
