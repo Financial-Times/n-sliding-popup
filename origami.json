@@ -8,7 +8,7 @@
 			"email": "accounts-team.customer-products@ft.com",
 			"slack": "financialtimes/customer-products-accounts-team"
 		},
-		"supportStatus": "experimental",
+		"supportStatus": "dead",
 		"browserFeatures": {},
 		"ci": {
 			"circle": "https://circleci.com/api/v1/project/Financial-Times/n-sliding-popup"
